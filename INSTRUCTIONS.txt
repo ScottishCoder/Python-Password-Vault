@@ -1,0 +1,34 @@
+### THIS IS A PROTOTYPE APPLICATION ###
+
+This program only connects to repositories for libary downloads, e.g. PyAesCrypt. Other than that, there is no outbound connections being made. 
+
+App: Built on Python 3 and the Tkinter GUI < ensure you have the latest python 3 installed on your machine or certain libs will not work and syntax issues will be highlighted in the terminal.
+
+Link to stable python 3 build: https://www.python.org/downloads/release/python-377/ << ensure you select the ADD TO PATH tickbox when installing
+
+### How To Run ### 
+
+1. open terminal or cmd
+2. cd 'path to project on your machine'
+3. python vault.py
+
+If this is your first time running the app, follow the terminal instructions. 
+
+This application requires the pyaescrypt library to safeguard your data. Allow auto installation to safe guard the database.
+
+This application can support multiple accounts. However it has been designed for the purposes of individual data storage. The other accounts are for people you trust in your household or yourself.
+
+If others do use this app on the one machine, then the last person to use it is responsible for ownership of the newely generated encryption key. 
+
+The encryption key is stored within the projects root folder. This can be moved to a more secure location, on a pen drive, or folder of your choosing. 
+Just make sure to put the key back into the projects root folder so it knows how to find it when running the application again.(This is still a prototype)
+
+ ## WARNING ##
+
+PLEASE MAKE SURE WHEN YOU ARE DONE WITH THE APPLICAITON THAT YOU (ENCRYPT & LOGOUT) BY HITTING THE TOP RIGHT GREEN BUTTON.
+If you close the application without hitting this button, the data will not be encrypted, and will be vulnerable. 
+
+The app will still run again, but your data will be unencrypted.
+
+This application will be compiled and used as an EXE in a future release. This prototype has code which can be easily viewed for production purposes.
+Even though the script is viewable, as long as you encrypt your database, it will still be secure.  
